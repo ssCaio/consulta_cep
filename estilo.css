@@ -1,0 +1,27 @@
+body,
+input,
+label {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  padding: 40px;
+  margin: 0 auto;
+  background: #ccc;
+}
+
+form {
+  margin-top: 40px;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 5px 2px;
+  display: block;
+}
