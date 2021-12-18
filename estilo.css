@@ -1,4 +1,13 @@
-body,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #141e30, #243b55);
+}
+
 input,
 label {
   margin: 0px;
@@ -12,7 +21,9 @@ label {
   max-width: 600px;
   padding: 40px;
   margin: 0 auto;
-  background: #ccc;
+  background: #243b55;
+  color: #fff;
+  border-radius: 4px;
 }
 
 form {
